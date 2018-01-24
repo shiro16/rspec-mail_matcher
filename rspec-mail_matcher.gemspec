@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "rspec-mail_matcher"
   spec.version       = RSpec::MailMatcher::VERSION
   spec.authors       = ["shiro16"]
-  spec.email         = ["shiro16@pepabo.com"]
+  spec.email         = ["nyanyanyawan24@gmail.com"]
 
   spec.summary       = %q{This library provides RSpec matcher for testing ActionMailer.}
   spec.description   = %q{RSpec matcher for testing ActionMailer}
