@@ -1,6 +1,6 @@
 # Rspec::MailMatcher
 
-
+This library provides RSpec matcher for testing ActionMailer.
 
 ## Installation
 
