@@ -4,7 +4,8 @@ module RSpec::MailMatcher
   class BodyHtmlMatcher < BodyMatcher
     private
     def mail_body
-      CGI.unescapeHTML(@mail.html_part.body.to_s)
+      body = @mail.multipart? ? @mail.html_part.body : @mail.body
+      CGI.unescapeHTML(body.to_s)
     rescue
       ""
     end
